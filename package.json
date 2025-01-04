@@ -1,0 +1,33 @@
+{
+	"name": "@natbienetre/uagb-static-form",
+	"version": "0.1.0",
+	"author": "Pierre PÉRONNET <pierre.peronnet@gmail.com>",
+	"license": "MPL-2.0",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"files": [
+		"build/*",
+		"*.php"
+	],
+	"devDependencies": {
+		"@wordpress/scripts": "^27.8.0"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^14.10.1",
+		"@wordpress/components": "^29.1.1",
+		"@wordpress/compose": "^7.14.0",
+		"@wordpress/element": "^6.15.1",
+		"@wordpress/hooks": "^4.14.0",
+		"@wordpress/i18n": "^5.14.0",
+		"@wordpress/icons": "^9.48.0",
+		"react": "^18.3.1"
+	}
+}
