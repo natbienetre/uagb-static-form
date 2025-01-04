@@ -1,0 +1,43 @@
+# Copyright (C) 2025 Pierre PÉRONNET <pierre.peronnet@gmail.com>
+# This file is distributed under the same license as the UAGB Static Form plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: UAGB Static Form 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/uagb-static-form\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-01-04T23:54:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: uagb-static-form\n"
+
+#. Plugin Name of the plugin
+#: uagb-static-form.php
+msgid "UAGB Static Form"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: uagb-static-form.php
+msgid "https://github.com/natbienetre/uagb-static-form"
+msgstr ""
+
+#. Description of the plugin
+#: uagb-static-form.php
+msgid "Patching the UAGB form block for Gutenberg to work with Simply Static."
+msgstr ""
+
+#. Author of the plugin
+#: uagb-static-form.php
+msgid "Pierre PÉRONNET <pierre.peronnet@gmail.com>"
+msgstr ""
+
+#: uagb-static-form.php:35
+msgid "Failed to enqueue the UAGB Static Form editor assets."
+msgstr ""
+
+#: uagb-static-form.php:46
+msgid "Failed to load the UAGB Static Form text domain."
+msgstr ""

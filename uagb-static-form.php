@@ -38,3 +38,14 @@ function uagd_static_form_enqueue_block_editor_assets() {
     }
 }
 add_action( 'enqueue_block_editor_assets', 'uagd_static_form_enqueue_block_editor_assets' );
+
+function uagd_static_form_load_textdomain() {
+    if ( ! load_plugin_textdomain( 'uagb-static-form', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ) ) {
+        add_action( 'admin_notices', function() {
+            ?><div class="notice notice-error">
+                <p><?php _e( 'Failed to load the UAGB Static Form text domain.', 'uagb-static-form' ); ?></p>
+            </div><?php
+        } );
+    }
+}
+add_action( 'init', 'uagd_static_form_load_textdomain' );
